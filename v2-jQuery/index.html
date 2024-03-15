@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>The Sweet Dreams Library</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <audio id="countdownSound" src="./audio/homer-woohoo.mp3" preload="auto"></audio>
+    <header>
+        <h1 id="siteName">The Sweet Dreams Library</h1>
+    </header>
+    <main>
+            <div id="outputContainer">
+                <div id="bookOutputOne">
+                    <h2>Book One</h2>
+                    <span id="bookOneTitle"></span>
+                    <span id="bookOneCover"></span>
+                </div>
+                <div id="bookOutputTwo">
+                    <h2>Book Two</h2>
+                    <span id="bookTwoTitle"></span>
+                    <span id="bookTwoCover"></span>
+                </div>
+            </div>
+        <div class="pageContainer">
+            <div class="box">
+                <button id="cta">
+                    What will we read tonight?
+                    <span class="shape"> <!-- These spans are used for the button animation -->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+            </div>
+            <!-- <button id="resetBtn">Reset</button> -->
+        </div>
+    </main>
+</body>
+
+</html>
