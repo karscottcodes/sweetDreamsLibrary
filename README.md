@@ -5,7 +5,7 @@ I've hosted it on my Codepen:
 [Sweet Dreams Library](https://codepen.io/karscottcodes/details/zYXdpyd "Sweet Dreams Library")
 
 ### The Idea
-Some evenings, my daughter has difficulty choosing which books to read before bed. This application randomly outputs two books from her library.
+Some evenings, my daughter has difficulty choosing which books to read before bed. This application randomly outputs two books from her library. It uses jQuery, HTML and CSS.
 
 ### Functional Priorities
 Proposed priorities for the MVP were:
